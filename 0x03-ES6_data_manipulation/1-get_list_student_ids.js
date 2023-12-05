@@ -1,11 +1,11 @@
 /**
  * Retrieves ids from a list of students.
  * @param {{
- *   id: Number,
- *   firstName: String,
- *   location: String
- * }[]} students - The list of students.
- * @returns
+ *   id: number,
+ *   firstName: string,
+ *   location: string
+ * }[]} students - the list of students.
+ * @returns {number[]} - An array of student IDs.
  */
 export default function getListStudentIds(students) {
   if (students instanceof Array) {
